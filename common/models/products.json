@@ -1,0 +1,38 @@
+{
+  "name": "products",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "product_name": {
+      "type": "string"
+    },
+    "product_type": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "cpu": {
+      "type": "string"
+    },
+    "ram": {
+      "type": "string"
+    },
+    "hardrive": {
+      "type": "string"
+    },
+    "refurbished": {
+      "type": "string"
+    },
+    "is_labtop": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
